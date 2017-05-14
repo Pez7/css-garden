@@ -2,3 +2,32 @@
 *{
 	font-family: 'Source Sans Pro', sans-serif;
 }
+p {
+	font-family: 'Bree Serif', serif;
+	font-size: 15px
+	color: #EAE1E1;
+}
+body{
+	margin: 0;
+	background-color: #706F6F;
+
+}
+section header h1 {
+	text-align: center;
+	color:#DAD3D3;
+	margin: 0;
+}
+section header h2{
+	color:#DAD3D3;
+	text-anchor: 10px;
+}
+section header{
+	background-image: url(../images/background2.jpg);
+	background-size: cover;
+	height:227px;
+
+	
+}
+div div h3{
+	font-size: 23px
+}
