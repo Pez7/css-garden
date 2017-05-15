@@ -2,6 +2,11 @@
 body{
 	margin:0;
 	margin-top: 0;
+	background-image: url(../images/purple_colorful-wide.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.8
+
 }
 .summary {
     font-size: 0.8em;
@@ -15,6 +20,12 @@ body{
     z-index: 3;
     color:#B2B2B2;
     text-align: right;
+}
+section header{
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	height: 201px;
+	padding-top: 1px;
 }
 section header h1{
 	margin:0;
@@ -34,21 +45,16 @@ section header h2{
 }
 .sidebar{
 	position:absolute;
-	top:251px;
-	width:210px;
+	top:203px;
+	width:277px;
 	text-align:center;
-	left:602px;
+	left:679px;
+	right:354px;
 	font-size:0.85em;
-	background:transparent url(pics/right_list_bg.jpg) repeat-y top left;
-	}
-
-section header{
-	background-image: url(../images/background.jpg);
-	background-size: cover;
-	height: 201px;
-	padding-top: 1px;
-
-} 
+	text-align: justify;
+	
+	background-size:cover;
+}
 h3 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 38px
@@ -60,7 +66,7 @@ h3 {
     top: -36px;
     left: 150px;
     z-index: 4;
-    background-color:#BB1EF5;
+   
 }
 p {
 	font-family: 'Droid Sans', sans-serif;
