@@ -1,33 +1,67 @@
 /* Agrega aquí tus estilos*/
-*{
-	font-family: 'Source Sans Pro', sans-serif;
-}
-p {
-	font-family: 'Bree Serif', serif;
-	font-size: 15px
-	color: #EAE1E1;
-}
 body{
-	margin: 0;
-	background-color: #706F6F;
-
+	margin:0;
+	margin-top: 0;
 }
-section header h1 {
-	text-align: center;
-	color:#DAD3D3;
-	margin: 0;
+.summary {
+    font-size: 0.8em;
+    overflow: hidden;
+    position: absolute;
+    left: 1021px;
+    top: 70px;
+    height: 140px;
+    text-align: justify;
+    width: 251px;
+    z-index: 3;
+    color:#B2B2B2;
+    text-align: right;
+}
+section header h1{
+	margin:0;
+	margin-top: 13px;
+	margin-bottom: 0px;
+	color:#B2B2B2;
+	
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
 }
 section header h2{
-	color:#DAD3D3;
-	text-anchor: 10px;
-}
-section header{
-	background-image: url(../images/background2.jpg);
-	background-size: cover;
-	height:227px;
-
+	margin:32px;
+	color:#B2B2B2;
 	
+	font-family: 'Dancing Script', cursive;
+	margin-top: 0;
 }
-div div h3{
-	font-size: 23px
+.sidebar{
+	position:absolute;
+	top:251px;
+	width:210px;
+	text-align:center;
+	left:602px;
+	font-size:0.85em;
+	background:transparent url(pics/right_list_bg.jpg) repeat-y top left;
+	}
+
+section header{
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	height: 201px;
+	padding-top: 1px;
+
+} 
+h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 38px
+}
+.preamble, .supporting {
+    position: relative;
+    text-align: justify;
+    width: 370px;
+    top: -36px;
+    left: 150px;
+    z-index: 4;
+    background-color:#BB1EF5;
+}
+p {
+	font-family: 'Droid Sans', sans-serif;
 }
